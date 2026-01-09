@@ -21,9 +21,9 @@ These days? Building agentic solutions that don't compromise on security. Becaus
 
 **SRE Things** ⚙️
 - Kubernetes wrangling (because someone has to tame these clusters)
-- Azure infrastructure (certified and battle-tested)
+- Azure & GCP infrastructure (certified in Azure, GCP veteran)
 - IaC with Terraform - because clicking in consoles is *so* 2015
-- Making things observable (Prometheus, Grafana, ELK)
+- Making things observable (Prometheus, Grafana, ELK, Cloud Monitoring)
 - On-call duty - my love-hate relationship with PagerDuty
 
 **AI & Agentic Solutions** 🤖
@@ -47,7 +47,7 @@ Kubernetes | Docker | Terraform | Ansible | ArgoCD | Helm
 
 **Cloud** ☁️
 ```
-Azure (certified and loving it) | Multi-cloud curious
+Azure (certified) | GCP (love it) | Multi-cloud warrior
 ```
 
 **AI/Agent Stack** 🤖
@@ -105,10 +105,11 @@ Also:
 - 🔄 GitOps security workflows (because Git is the source of truth)
 - 🛡️ Securing AI/ML pipelines (because someone has to)
 
-### 🏆 Certifications & Learning
+### 🏆 Certifications & Experience
 
 **Certified:**
 - ☁️ Microsoft Azure (multiple certifications)
+- 🌩️ Google Cloud Platform (battle-tested veteran)
 - ☸️ Kubernetes practitioner (learned the hard way, in production)
 - 🚀 SRE principles (battle-tested with real incidents)
 
