@@ -1,103 +1,114 @@
-# 👋 Hi, I'm Shamil Ghaseeta
+# Salut! 👋
 
-## Lead SRE Security Engineer
+I break things professionally (before bad actors do), then automate the fixes. Lead SRE Security Engineer who believes infrastructure should be both bulletproof *and* elegant.
 
-I specialize in building secure, scalable infrastructure and implementing DevSecOps practices. With deep expertise in cloud security, infrastructure automation, and incident response, I help organizations protect their infrastructure while maintaining high availability and performance.
+## What I Actually Do
 
-### 🔐 Core Expertise
+I'm the person who says "mais non, we can't just YOLO to production" and then shows you how to do it safely with zero-trust architecture and proper secrets management. Think of me as the friendly neighborhood security guy who also happens to love Kubernetes chaos engineering.
 
-**Security & Compliance**
-- Infrastructure Security & Hardening
-- Secrets Management (SOPS, Vault, Sealed Secrets)
-- Zero Trust Architecture
-- Security Automation & Policy-as-Code
-- Compliance (SOC2, ISO 27001, GDPR)
-- Vulnerability Management & Remediation
+### 🔐 Security Stuff (the serious part)
 
-**SRE & Infrastructure**
-- Kubernetes Security & Operations
-- Cloud Architecture (AWS, GCP, Azure)
-- Infrastructure as Code (Terraform, CloudFormation)
-- CI/CD Pipeline Security
-- Observability & Monitoring (Prometheus, Grafana, ELK)
-- Incident Response & On-Call Management
+**Making Things Secure** 🛡️
+- Infrastructure hardening (because "it works on my machine" isn't a security strategy)
+- Secrets management with hardware keys (SOPS, Vault, and my beloved Yubikeys)
+- Zero Trust - because trust is for friends, not for networks
+- Security automation - if I have to do it twice, it gets a script
+- Compliance things (SOC2, ISO 27001) - the necessary evil
 
-**DevSecOps**
-- Security in CI/CD Pipelines
-- Container Security (Docker, K8s, Harbor)
-- Static & Dynamic Security Testing
-- Security Scanning Automation
-- Supply Chain Security
+**SRE Things** ⚙️
+- Kubernetes wrangling (CKA, CKAD, CKS - collected them all like Pokémon cards)
+- Cloud stuff across AWS, GCP, Azure (poly-cloud life chose me)
+- IaC with Terraform - because clicking in consoles is *so* 2015
+- Making things observable (Prometheus, Grafana, ELK)
+- On-call duty - my love-hate relationship with PagerDuty
 
-### 🛠️ Tech Stack
+**DevSecOps** 🔄
+- Shifting security left (before it's too expensive to fix)
+- Container security - because `FROM ubuntu:latest` gives me nightmares
+- CI/CD pipeline security - your build server is not a trusted environment
+- Supply chain security - trust but verify *everything*
 
-**Security Tools**
-- `Yubikey` `age` `SOPS` `HashiCorp Vault` `AWS KMS`
-- `Falco` `Trivy` `Aqua Security` `Snyk`
-- `OPA/Gatekeeper` `Kyverno` `Pod Security Standards`
+### 🛠️ My Toolbox
+
+**Security Arsenal**
+```
+Yubikey | SOPS | Vault | Falco | Trivy | OPA | Kyverno
+```
 
 **Infrastructure**
-- `Kubernetes` `Docker` `Helm` `ArgoCD` `Flux`
-- `Terraform` `Ansible` `Packer`
-- `AWS` `GCP` `Azure`
+```
+Kubernetes | Docker | Terraform | Ansible | ArgoCD | Helm
+```
 
-**Monitoring & Observability**
-- `Prometheus` `Grafana` `AlertManager`
-- `ELK Stack` `Splunk` `DataDog`
-- `Jaeger` `OpenTelemetry`
+**Clouds** ☁️
+```
+AWS (my main squeeze) | GCP (the side project) | Azure (it's complicated)
+```
 
-**Languages & Scripting**
-- `Go` `Python` `Bash` `Ruby`
-- `HCL` `YAML` `JSON`
+**Languages**
+```
+Go | Python | Bash | Ruby | HCL | YAML (yes, YAML is a language, fight me)
+```
 
 ### 📊 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=shamil2&show_icons=true&theme=dark&hide_border=true&include_all_commits=true&count_private=true)
+![Stats](https://github-readme-stats.vercel.app/api?username=shamil2&show_icons=true&theme=dracula&hide_border=true&include_all_commits=true&count_private=true)
 
-### 🚀 Recent Projects
+### 🚀 Recent Work
 
-#### [SOPS + Yubikey PIV Setup](https://github.com/shamil2/sops-yubikey)
-Secure secret management using hardware-backed Yubikey PIV keys with physical touch requirement. Prevents silent malware attacks and provides team-friendly secret management.
+**[SOPS + Yubikey PIV](https://github.com/shamil2/sops-yubikey)**
 
-**Key Features:**
-- Hardware-backed encryption (keys never leave Yubikey)
-- Physical touch required for all decryption operations
-- Cross-platform support (Linux, macOS, Windows)
-- Team management workflows
-- CI/CD integration examples
+Because storing secrets in plaintext is a crime against humanity. This setup uses hardware-backed Yubikey PIV keys with physical touch requirement - if malware tries to decrypt your secrets, your Yubikey LED blinks and you know something's fishy.
 
-### 💼 What I Do
+*C'est magnifique* - your secrets are safe, your team is happy, and attackers are frustrated. Exactement what we want.
 
-- **Design & Implement** security architectures for cloud-native applications
-- **Automate** security controls and compliance checks
-- **Build** resilient, self-healing infrastructure
-- **Lead** incident response and post-mortem analysis
-- **Mentor** teams on security best practices and SRE principles
-- **Drive** security-first culture in engineering organizations
+### 💭 Philosophy
 
-### 🎯 Current Focus
+> *"Security without usability is just expensive theater. Good security makes the secure path the easy path."*
 
-- 🔐 Hardware security keys & Zero Trust implementations
-- ☸️ Kubernetes security hardening & runtime protection
-- 🔄 GitOps security workflows
-- 🛡️ Supply chain security & SBOM generation
-- 📊 Security observability & threat detection
+Also:
+- Automate everything (humans are terrible at repetitive tasks)
+- Monitor everything (you can't improve what you don't measure)
+- Break things in staging (so they don't break in prod)
+- Document everything (future-you will thank present-you)
 
-### 📫 Get In Touch
+### 🎯 Currently Tinkering With
 
-- **GitHub**: [@shamil2](https://github.com/shamil2)
-- **Email**: shamil.ghaseeta@s3ns.io
+- 🔐 Hardware security keys & zero-trust implementations (obsessed with Yubikeys)
+- ☸️ Kubernetes runtime security (Falco is my spirit animal)
+- 🔄 GitOps security workflows (because Git is the source of truth)
+- 🛡️ Supply chain security (trust no dependency)
+- 📊 Security observability (finding needles in haystacks, but make it automated)
 
-### 🏆 Certifications & Skills
+### 🏆 Certifications
 
-- ☸️ Kubernetes (CKA, CKAD, CKS)
-- ☁️ AWS Certified Solutions Architect / Security Specialty
-- 🔐 CISSP / CEH / Security+
-- 🚀 Site Reliability Engineering principles
-- 📈 Chaos Engineering & Resilience Testing
+☸️ Kubernetes trilogy (CKA, CKAD, CKS)
+☁️ AWS Solutions Architect + Security Specialty
+🔐 CISSP (the one that makes recruiters happy)
+🚀 Site Reliability Engineering principles (learned from production incidents)
+
+### 📫 Contact
+
+- GitHub: right here, you found me
+- Email: shamil.ghaseeta@s3ns.io
+- Best way: open an issue on my repos (I'm more responsive than on email)
+
+### ⚡ Fun Facts
+
+- I have more Yubikeys than most people have regular keys
+- My idea of a good time is hardening a Kubernetes cluster
+- I speak fluent YAML (unfortunately)
+- Coffee-to-code ratio: 1:1
+- *"Have you tried turning it off and on again?"* is a valid security strategy
 
 ---
 
-💡 *"Security is not a product, but a process. Automate it, monitor it, improve it."*
+*"The S in IoT stands for Security"* 😏
 
-![Profile Views](https://komarev.com/ghpvc/?username=shamil2&color=blue&style=flat-square)
+![Profile Views](https://komarev.com/ghpvc/?username=shamil2&color=blueviolet&style=flat-square)
+
+---
+
+PS: If you're here from a security audit, yes, I practice what I preach. Check out my repos - actual working code, not just slides.
+
+Bisous! 💜
