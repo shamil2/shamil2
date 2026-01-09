@@ -2,9 +2,13 @@
 
 I break things professionally (before bad actors do), then automate the fixes. Lead SRE Security Engineer who believes infrastructure should be both bulletproof *and* elegant.
 
+Currently obsessed with AI agents and making them play nice with security constraints.
+
 ## What I Actually Do
 
 I'm the person who says "mais non, we can't just YOLO to production" and then shows you how to do it safely with zero-trust architecture and proper secrets management. Think of me as the friendly neighborhood security guy who also happens to love Kubernetes chaos engineering.
+
+These days? Building agentic solutions that don't compromise on security. Because AI agents are cool, but insecure AI agents are a nightmare waiting to happen.
 
 ### 🔐 Security Stuff (the serious part)
 
@@ -13,20 +17,21 @@ I'm the person who says "mais non, we can't just YOLO to production" and then sh
 - Secrets management with hardware keys (SOPS, Vault, and my beloved Yubikeys)
 - Zero Trust - because trust is for friends, not for networks
 - Security automation - if I have to do it twice, it gets a script
-- Compliance things (SOC2, ISO 27001) - the necessary evil
+- Compliance things (SOC2, ISO 27001, CISSP in progress) - the necessary evil
 
 **SRE Things** ⚙️
-- Kubernetes wrangling (CKA, CKAD, CKS - collected them all like Pokémon cards)
-- Cloud stuff across AWS, GCP, Azure (poly-cloud life chose me)
+- Kubernetes wrangling (because someone has to tame these clusters)
+- Azure infrastructure (certified and battle-tested)
 - IaC with Terraform - because clicking in consoles is *so* 2015
 - Making things observable (Prometheus, Grafana, ELK)
 - On-call duty - my love-hate relationship with PagerDuty
 
-**DevSecOps** 🔄
-- Shifting security left (before it's too expensive to fix)
-- Container security - because `FROM ubuntu:latest` gives me nightmares
-- CI/CD pipeline security - your build server is not a trusted environment
-- Supply chain security - trust but verify *everything*
+**AI & Agentic Solutions** 🤖
+- Building autonomous agents that actually work in production
+- Securing AI/ML pipelines (because model poisoning is a real thing)
+- LLM integration with enterprise security constraints
+- Agent orchestration and workflow automation
+- AI-powered security monitoring and response
 
 ### 🛠️ My Toolbox
 
@@ -40,9 +45,15 @@ Yubikey | SOPS | Vault | Falco | Trivy | OPA | Kyverno
 Kubernetes | Docker | Terraform | Ansible | ArgoCD | Helm
 ```
 
-**Clouds** ☁️
+**Cloud** ☁️
 ```
-AWS (my main squeeze) | GCP (the side project) | Azure (it's complicated)
+Azure (certified and loving it) | Multi-cloud curious
+```
+
+**AI/Agent Stack** 🤖
+```
+Claude | OpenAI API | LangChain | AutoGen | CrewAI
+Prompt Engineering | RAG | Function Calling | Agent Orchestration
 ```
 
 **Languages**
@@ -62,30 +73,49 @@ Because storing secrets in plaintext is a crime against humanity. This setup use
 
 *C'est magnifique* - your secrets are safe, your team is happy, and attackers are frustrated. Exactement what we want.
 
+**Agentic Solutions (Currently Building)**
+
+Working on autonomous agent systems that can:
+- Self-heal infrastructure issues before humans wake up
+- Analyze security logs and triage incidents automatically
+- Orchestrate complex workflows across multiple tools
+- Learn from production patterns (without breaking things)
+
+The trick? Making agents reliable enough for production while keeping them on a tight security leash.
+
 ### 💭 Philosophy
 
 > *"Security without usability is just expensive theater. Good security makes the secure path the easy path."*
 
+> *"AI agents are like interns - powerful when properly supervised, chaos when left unsupervised."*
+
 Also:
-- Automate everything (humans are terrible at repetitive tasks)
+- Automate everything (humans are terrible at repetitive tasks, agents are great at them)
 - Monitor everything (you can't improve what you don't measure)
 - Break things in staging (so they don't break in prod)
 - Document everything (future-you will thank present-you)
+- Trust but verify (especially with AI outputs)
 
 ### 🎯 Currently Tinkering With
 
+- 🤖 **Agentic workflows** for security operations (current obsession)
 - 🔐 Hardware security keys & zero-trust implementations (obsessed with Yubikeys)
+- 🧠 AI-powered incident response (teaching agents to think like SREs)
 - ☸️ Kubernetes runtime security (Falco is my spirit animal)
 - 🔄 GitOps security workflows (because Git is the source of truth)
-- 🛡️ Supply chain security (trust no dependency)
-- 📊 Security observability (finding needles in haystacks, but make it automated)
+- 🛡️ Securing AI/ML pipelines (because someone has to)
 
-### 🏆 Certifications
+### 🏆 Certifications & Learning
 
-☸️ Kubernetes trilogy (CKA, CKAD, CKS)
-☁️ AWS Solutions Architect + Security Specialty
-🔐 CISSP (the one that makes recruiters happy)
-🚀 Site Reliability Engineering principles (learned from production incidents)
+**Certified:**
+- ☁️ Microsoft Azure (multiple certifications)
+- ☸️ Kubernetes practitioner (learned the hard way, in production)
+- 🚀 SRE principles (battle-tested with real incidents)
+
+**In Progress:**
+- 🔐 CISSP (the long one, but worth it)
+- 🤖 AI/ML Security specialization
+- 📚 Continuous learning (because tech moves fast)
 
 ### 📫 Contact
 
@@ -96,19 +126,35 @@ Also:
 ### ⚡ Fun Facts
 
 - I have more Yubikeys than most people have regular keys
-- My idea of a good time is hardening a Kubernetes cluster
+- My AI agents have better error handling than my first production code
 - I speak fluent YAML (unfortunately)
 - Coffee-to-code ratio: 1:1
+- Currently training AI agents to understand French humor (work in progress)
 - *"Have you tried turning it off and on again?"* is a valid security strategy
+
+### 🧠 AI Thoughts
+
+I believe AI/LLMs are transformative for security and operations work, but only if we:
+- Keep humans in the loop for critical decisions
+- Build proper guardrails and security controls
+- Test agents like we test code (because they *are* code)
+- Monitor agent behavior like we monitor systems
+- Accept that agents will fail (and plan for it)
+
+The future is agentic, but it better be secure too.
 
 ---
 
 *"The S in IoT stands for Security"* 😏
+
+*"The A in AI stands for... well, Agents now, apparently"* 🤖
 
 ![Profile Views](https://komarev.com/ghpvc/?username=shamil2&color=blueviolet&style=flat-square)
 
 ---
 
 PS: If you're here from a security audit, yes, I practice what I preach. Check out my repos - actual working code, not just slides.
+
+PPS: My AI agents are properly sandboxed and monitored. Promise.
 
 Bisous! 💜
